@@ -9,7 +9,7 @@ const Projects = () => {
             <img src={project.image} alt={project.title}
             width={150} 
             height={150}
-            className='mb-6 rounded'
+            className='mb-6 rounded  hover:shadow-lg hover:shadow-slate-600/50 hover:scale-95 hover:duration-200 hover:ease-in-out '
             />
              </div>
              <div className='w-full max-w-xl lg:w-3/4'>
