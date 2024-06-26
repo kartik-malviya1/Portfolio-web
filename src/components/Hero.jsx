@@ -47,7 +47,7 @@ const Hero = () => {
     <div className="w-full border-b border-neutral-900 p-2">
       <div className="flex flex-wrap sm:items-center">
         <div className="w-full lg:w-1/2">
-         <div className="flex flex-col ml-12 md:mt-10 mb-28 sm:gap-7 gap-4 items-center sm:items-start ">
+         <div className="flex flex-col sm:ml-12 ml-0 md:mt-10 mb-28 sm:gap-7 gap-4 items-center sm:items-start ">
             <motion.h1
             variants={container(0)}
             initial="hidden"
@@ -65,7 +65,7 @@ const Hero = () => {
             variants={container(1)}
             initial="hidden"
             animate="visible"
-            className='my-2 max-w-xl py-6 pl-3 sm:text-start text-start text-sm sm:text-base font-light tracking-tight'>{HERO_CONTENT}</motion.p>
+            className='my-2 max-w-xl py-6 sm:text-start text-start text-sm sm:text-base font-light tracking-tight'>{HERO_CONTENT}</motion.p>
           </div>
         </div>
         <motion.div 
